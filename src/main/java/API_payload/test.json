@@ -1,0 +1,219 @@
+{
+  "key": "5d81261ff7f7dc26fb02b78a",
+  "timeFilter": {
+    "sinceTime": 1568955600000,
+    "untilTime": 1569041999999
+  },
+  "previousTimeFilter": {
+    "sinceTime": 1568869200000,
+    "untilTime": 1568955599999
+  },
+  "reportingEngine": "LISTENING",
+  "query": null,
+  "filters": [],
+  "postFilters": null,
+  "projectionFilters": null,
+  "projections": null,
+  "report": "SPRINKSIGHTS",
+  "tzOffset": 0,
+  "timezone": "America/Chicago",
+  "sorts": [
+    {
+      "key": "M_SPRINKSIGHTS_REACH_COUNT_0",
+      "order": "DESC",
+      "additional": null
+    }
+  ],
+  "page": {
+    "page": 0,
+    "size": 20
+  },
+  "pageForDocuments": null,
+  "sortsForDocuments": null,
+  "additional": {
+    "showTotal": "false",
+    "TABULAR": "true",
+    "dashboardId": "5d01469ee4b0824c7ddce9a6",
+    "widgetId": "5d810059852baea95bc2579d",
+    "browserSessionId": "15c193c6-76db-4dda-9025-1e8c1b950592",
+    "engine": "LISTENING"
+  },
+  "cacheDisabled": false,
+  "projectionDecorations": [],
+  "includeFields": null,
+  "excludeFields": null,
+  "reportDateField": null,
+  "groupBys": [
+    {
+      "key": "ES_MESSAGE_ID_0",
+      "field": "ES_MESSAGE_ID",
+      "groupType": "FIELD",
+      "details": {},
+      "sort": null,
+      "page": null,
+      "projections": null,
+      "filters": null,
+      "namedFilters": null,
+      "childrenGroupBys": [
+        {
+          "key": "LISTENING_MEDIA_TYPE_1",
+          "field": "LISTENING_MEDIA_TYPE",
+          "groupType": "FIELD",
+          "details": {},
+          "sort": null,
+          "page": null,
+          "projections": null,
+          "filters": null,
+          "namedFilters": null,
+          "childrenGroupBys": [
+            {
+              "key": "SEM_SENTIMENT_2",
+              "field": "SEM_SENTIMENT",
+              "groupType": "FIELD",
+              "details": {},
+              "sort": null,
+              "page": null,
+              "projections": null,
+              "filters": null,
+              "namedFilters": null,
+              "childrenGroupBys": [
+                {
+                  "key": "BIO_CONTENT_GEO_CITY_3",
+                  "field": "BIO_CONTENT_GEO_CITY",
+                  "groupType": "FIELD",
+                  "details": {},
+                  "sort": null,
+                  "page": null,
+                  "projections": null,
+                  "filters": null,
+                  "namedFilters": null,
+                  "childrenGroupBys": [
+                    {
+                      "key": "BIO_CONTENT_GEO_STATE_4",
+                      "field": "BIO_CONTENT_GEO_STATE",
+                      "groupType": "FIELD",
+                      "details": {},
+                      "sort": null,
+                      "page": null,
+                      "projections": null,
+                      "filters": null,
+                      "namedFilters": null,
+                      "childrenGroupBys": [
+                        {
+                          "key": "BIO_CONTENT_GEO_COUNTRY_5",
+                          "field": "BIO_CONTENT_GEO_COUNTRY",
+                          "groupType": "FIELD",
+                          "details": {},
+                          "sort": null,
+                          "page": null,
+                          "projections": null,
+                          "filters": null,
+                          "namedFilters": null,
+                          "childrenGroupBys": [
+                            {
+                              "key": "GENDER_6",
+                              "field": "GENDER",
+                              "groupType": "FIELD",
+                              "details": {},
+                              "sort": null,
+                              "page": null,
+                              "projections": null,
+                              "filters": null,
+                              "namedFilters": null,
+                              "childrenGroupBys": [
+                                {
+                                  "key": "LST_SUPP_LNG_7",
+                                  "field": "LST_SUPP_LNG",
+                                  "groupType": "FIELD",
+                                  "details": {},
+                                  "sort": {
+                                    "key": "M_SPRINKSIGHTS_REACH_COUNT_0",
+                                    "order": "DESC",
+                                    "additional": null
+                                  },
+                                  "page": null,
+                                  "projections": [
+                                    {
+                                      "measurement": "REACH_COUNT",
+                                      "aggregateFunction": "SUM",
+                                      "details": null,
+                                      "filters": null,
+                                      "key": "M_SPRINKSIGHTS_REACH_COUNT_0"
+                                    },
+                                    {
+                                      "measurement": "LIKES_COUNT",
+                                      "aggregateFunction": "SUM",
+                                      "details": null,
+                                      "filters": null,
+                                      "key": "M_SPRINKSIGHTS_LIKES_COUNT_1"
+                                    },
+                                    {
+                                      "measurement": "NET_SENTIMENT_SCORE_9123",
+                                      "aggregateFunction": "SUM",
+                                      "details": null,
+                                      "filters": null,
+                                      "key": "M_SPRINKSIGHTS_NET_SENTIMENT_SCORE_9123_2"
+                                    },
+                                    {
+                                      "measurement": "MENTIONS_COUNT",
+                                      "aggregateFunction": "SUM",
+                                      "details": null,
+                                      "filters": null,
+                                      "key": "M_SPRINKSIGHTS_MENTIONS_COUNT_3"
+                                    },
+                                    {
+                                      "measurement": "SHARES_COUNT",
+                                      "aggregateFunction": "SUM",
+                                      "details": null,
+                                      "filters": null,
+                                      "key": "M_SPRINKSIGHTS_SHARES_COUNT_4"
+                                    },
+                                    {
+                                      "measurement": "REPLY_COUNT",
+                                      "aggregateFunction": "SUM",
+                                      "details": null,
+                                      "filters": null,
+                                      "key": "M_SPRINKSIGHTS_REPLY_COUNT_5"
+                                    },
+                                    {
+                                      "measurement": "COMMENTS_COUNT",
+                                      "aggregateFunction": "SUM",
+                                      "details": null,
+                                      "filters": null,
+                                      "key": "M_SPRINKSIGHTS_COMMENTS_COUNT_6"
+                                    },
+                                    {
+                                      "measurement": "MENTIONS_EX_RETWEETS",
+                                      "aggregateFunction": "SUM",
+                                      "details": null,
+                                      "filters": null,
+                                      "key": "M_SPRINKSIGHTS_MENTIONS_EX_RETWEETS_7"
+                                    },
+                                    {
+                                      "measurement": "TWITTER_RETWEETS",
+                                      "aggregateFunction": "SUM",
+                                      "details": null,
+                                      "filters": null,
+                                      "key": "M_SPRINKSIGHTS_TWITTER_RETWEETS_8"
+                                    }
+                                  ],
+                                  "filters": null,
+                                  "namedFilters": null,
+                                  "childrenGroupBys": null
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
