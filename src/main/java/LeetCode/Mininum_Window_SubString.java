@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Mininum_Window_SubString {
     public static void main(String[] args) {
-    String source="ABUBEDCDEBANCABC", target="ABCD";
+    String source="a", target="a";
     Mininum_Window_SubString mininum_window_subString=new Mininum_Window_SubString();
     System.out.println(mininum_window_subString.miniMumWindow(source,target));
     }

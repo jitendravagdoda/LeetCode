@@ -7,7 +7,7 @@ public class LinkedListDemo {
         List<Integer> list=new LinkedList();
         list.add(0);
         list.add(1);
-        list.add(2);
+        ((LinkedList<Integer>) list).push(2);
         ((LinkedList<Integer>) list).addFirst(-1);
         ((LinkedList<Integer>) list).addLast(5);
         System.out.println(list.toString());
