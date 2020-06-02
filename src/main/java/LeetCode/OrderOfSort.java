@@ -46,8 +46,12 @@ public class OrderOfSort {
         for (int i = 0; i <heapSize ; i++) {
             Node temp=heap.poll();
             System.out.println(temp.value );
+
             for (int j = 0; j <temp.outgoingEdge.size() ; j++) {
-                temp.outgoingEdge.get(j).incomingEdges--;
+                Node remove=map.get(temp.outgoingEdge.get(j).value);
+                heap.remove(remove);
+                remove.incomingEdges--;
+                heap.add(remove);
             }
         }
         return result;
