@@ -46,7 +46,6 @@ public class LongestPalindromeSubstring {
             }
         }
 
-
         int T[] = new int[newInput.length];
         int start = 0;
         int end = 0;

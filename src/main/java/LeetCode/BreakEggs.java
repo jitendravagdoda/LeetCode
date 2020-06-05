@@ -12,7 +12,7 @@ public class BreakEggs {
 
         int dp[][]=new int[eggs+1][floors+1];
 
-        for (int i = 1; i <= eggs   ; i++)
+        for (int i = 1; i <= eggs; i++)
         {
             dp[i][1] = 1;
             dp[i][0] = 0;
