@@ -4,42 +4,47 @@ public class RemoveInvalidParentheses {
     public static void main(String[] args) {
         String s="()())(()()()";
         RemoveInvalidParentheses removeInvalidParentheses=new RemoveInvalidParentheses();
-        String temp=removeInvalidParentheses.isValidParentheses(s);
-        temp=temp.replaceAll("[^0-9]","");
-
-        StringBuilder sb=new StringBuilder();
-        int removedChar=0;
-        for(int i=0; i<s.length(); i++){
-
-                sb.append(s.charAt(i));
-
-        }
-        System.out.println(sb.toString());
-
-
-
+        System.out.println(removeInvalidParentheses.helper(s).toString());
     }
-    public  Map<Integer, Character> unblanced(String s){
-        Stack<Character> st=new Stack();
-        Map<Integer,Character> map=new HashMap();
-        for(int i=0; i<s.length(); i++){
+    public List<String> helper( String s){
+        List<String> result= new ArrayList();
+        Set<String> visited= new HashSet();
+        Queue<String> queue= new LinkedList();
+        visited.add(s);
+        queue.add(s);
 
-        }
+        while(!queue.isEmpty()){
+            String temp = queue.poll();
+            if(isValid(temp)){
+                result.add(temp);
+                break;
+            }
 
-        return map;
-    }
-    public String isValidParentheses(String s){
-        Stack<Integer> st=new Stack();
-        for(int i=0;i<s.length();i++){
-            char c=s.charAt(i);
-            if(c=='(')
-                st.push(i);
-            else if(st.isEmpty() || s.charAt(st.peek())!='(')
-                st.push(i);
-            else
-                st.pop();
+            for(int i= 0; i< temp.length(); i++){
+                char c = temp.charAt(i);
+                if( c != '(' && c != ')') continue;
+                String part =  temp.substring(0,i)+temp.substring(i+1);
+                if(!visited.contains(part)){
+                    visited.add(part);
+                    queue.add(part);
+                }
+            }
         }
-        return st.toString();
+        while(!queue.isEmpty()){
+            String temp = queue.poll();
+            if(isValid(temp))
+                result.add(temp);
+        }
+        return result;
     }
 
+    boolean isValid(String s) {
+        int count = 0;
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (c == '(') count++;
+            if (c == ')' && count-- == 0) return false;
+        }
+        return count == 0;
+    }
 }

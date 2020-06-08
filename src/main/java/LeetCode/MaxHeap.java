@@ -1,11 +1,6 @@
 package LeetCode;
 
-
-import com.sun.deploy.util.ArrayUtil;
-
-import java.lang.reflect.Array;
 import java.util.*;
-import java.util.concurrent.ConcurrentMap;
 
 public class MaxHeap {
     public static void main(String[] args) {
