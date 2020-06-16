@@ -25,12 +25,16 @@ public class VerifyingAlienDictionary {
     public boolean isAlienSorted(String[] words, String order) {
         if(words.length<=1)
             return true;
+        int orderArray[] = new int[26];
+        for(int  i=0; i<order.length(); i++){
+            orderArray[order.charAt(i) -'a'] = i;
+        }
         String prev= words[0];
         for( int i=1; i<words.length; i++){
             int j=0;
             while(j<Math.min(prev.length(), words[i].length())){
                 if(prev.charAt(j)!=words[i].charAt(j)){
-                    if(checkOrder(prev.charAt(j), words[i].charAt(j),order))
+                    if(orderArray[prev.charAt(j)- 'a']<orderArray[words[i].charAt(j) - 'a'])
                         break;
                     else
                         return false;
@@ -40,19 +44,6 @@ public class VerifyingAlienDictionary {
             if(j==Math.min(prev.length(),words[i].length()) && prev.length()>words[i].length())
                 return false;
             prev= words[i];
-        }
-        return true;
-    }
-
-    public boolean checkOrder(char first, char second, String order){
-        int count=0;
-        for(int k=0; k<order.length(); k++){
-            if(first==order.charAt(k) && count == 0)
-                return true;
-            else if(first==order.charAt(k) && count == -1)
-                return false;
-            if(second==order.charAt(k))
-                count--;
         }
         return true;
     }

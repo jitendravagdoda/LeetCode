@@ -20,8 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f181b792-3298-4c1e-9dff-dc07e46fd9c7" name="Default" comment="Backup">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/WorkBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interval/Interval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/FirstDuplicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DemoCollections/LinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DemoCollections/LinkedListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/OrderOfSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/OrderOfSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/VerifyingAlienDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/VerifyingAlienDictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DemoCollections/LinkedListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DemoCollections/LinkedListDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LeetCode/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/OrderOfSort$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/OrderOfSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LeetCode/OrderOfSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LeetCode/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/VerifyingAlienDictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LeetCode/VerifyingAlienDictionary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/WorkBreak.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LeetCode/WorkBreak.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +84,7 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WorkBreak">
+  <component name="RunManager" selected="Application.FirstDuplicate">
     <configuration name="BinaryTreeDemo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.BinaryTreeDemo" />
       <module name="test.test" />
@@ -102,22 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.MaximumSwap" />
-      <module name="test.test" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.QuickSort" />
+    <configuration name="FirstDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.FirstDuplicate" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -130,13 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveInvalidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.RemoveInvalidParentheses" />
+    <configuration name="Interval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interval.Interval" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
+          <option name="PATTERN" value="Interval.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,9 +142,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubSetOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.SubSetOfArray" />
-      <module name="test.test" />
+    <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DemoCollections.LinkedListDemo" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DemoCollections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderOfSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.OrderOfSort" />
+      <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -179,8 +191,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.WorkBreak" />
+    <configuration name="VerifyingAlienDictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.VerifyingAlienDictionary" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -220,19 +232,19 @@
       <item itemvalue="Application.SumOfPair" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.BinaryTreeDemo" />
-      <item itemvalue="Application.SubSetOfArray" />
-      <item itemvalue="Application.MaximumSwap" />
-      <item itemvalue="Application.QuickSort" />
-      <item itemvalue="Application.RemoveInvalidParentheses" />
-      <item itemvalue="Application.WorkBreak" />
+      <item itemvalue="Application.VerifyingAlienDictionary" />
+      <item itemvalue="Application.OrderOfSort" />
+      <item itemvalue="Application.Interval" />
+      <item itemvalue="Application.LinkedListDemo" />
+      <item itemvalue="Application.FirstDuplicate" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WorkBreak" />
-        <item itemvalue="Application.RemoveInvalidParentheses" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.MaximumSwap" />
-        <item itemvalue="Application.SubSetOfArray" />
+        <item itemvalue="Application.FirstDuplicate" />
+        <item itemvalue="Application.LinkedListDemo" />
+        <item itemvalue="Application.Interval" />
+        <item itemvalue="Application.OrderOfSort" />
+        <item itemvalue="Application.VerifyingAlienDictionary" />
       </list>
     </recent_temporary>
   </component>
@@ -306,22 +318,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="370" y="69" key="#Test/0.0.1440.900@0.0.1440.900" timestamp="1591562072145" />
-    <state width="1398" height="144" key="GridCell.Tab.0.bottom" timestamp="1591728615073">
+    <state width="1398" height="144" key="GridCell.Tab.0.bottom" timestamp="1592246053805">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="144" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591728615073" />
-    <state width="1398" height="144" key="GridCell.Tab.0.center" timestamp="1591728615072">
+    <state width="1398" height="144" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592246053805" />
+    <state width="1398" height="144" key="GridCell.Tab.0.center" timestamp="1592246053804">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="144" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591728615072" />
-    <state width="1398" height="144" key="GridCell.Tab.0.left" timestamp="1591728615071">
+    <state width="1398" height="144" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592246053804" />
+    <state width="1398" height="144" key="GridCell.Tab.0.left" timestamp="1592246053803">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="144" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591728615071" />
-    <state width="1398" height="144" key="GridCell.Tab.0.right" timestamp="1591728615072">
+    <state width="1398" height="144" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592246053803" />
+    <state width="1398" height="144" key="GridCell.Tab.0.right" timestamp="1592246053804">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="144" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591728615072" />
+    <state width="1398" height="144" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592246053804" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1591726449932">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -342,10 +354,24 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591639686172" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1591726171737">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1592167821836">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1591726171737" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1592167821836" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/DemoCollections/LinkedListDemo.java</url>
+          <line>5</line>
+          <properties class="DemoCollections.LinkedListDemo" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

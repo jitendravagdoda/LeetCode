@@ -9,6 +9,7 @@ public class QuickSort{
         QuickSort quickSort=new QuickSort();
         quickSort.sort(array,0,array.length-1);
         System.out.println(Arrays.toString(array));
+
     }
     public void sort(int nums[], int low, int high){
         if(low<high){
@@ -35,3 +36,5 @@ public class QuickSort{
         return i;
     }
 }
+
+
