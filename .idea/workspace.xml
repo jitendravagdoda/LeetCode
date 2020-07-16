@@ -20,20 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f181b792-3298-4c1e-9dff-dc07e46fd9c7" name="Default" comment="Backup">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Interval/Interval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/FirstDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Interval/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java8/Lambda_Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java8/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/NNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DemoCollections/LinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DemoCollections/LinkedListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/OrderOfSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/OrderOfSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/VerifyingAlienDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/VerifyingAlienDictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DemoCollections/LinkedListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DemoCollections/LinkedListDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LeetCode/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/OrderOfSort$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/OrderOfSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LeetCode/OrderOfSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LeetCode/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/VerifyingAlienDictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LeetCode/VerifyingAlienDictionary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/WorkBreak.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LeetCode/WorkBreak.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/KnearstNeighnour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/KnearstNeighnour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/BinaryTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/BinaryTreeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/LargestBinaryBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/LargestBinaryBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/KnearstNeighnour$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LeetCode/KnearstNeighnour$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/KnearstNeighnour.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LeetCode/KnearstNeighnour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LeetCode/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LeetCode/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tree/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tree/BinaryTreeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tree/BinaryTreeDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tree/LargestBinaryBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tree/LargestBinaryBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tree/MinMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tree/MinMax.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,15 +86,14 @@
       <recent name="$PROJECT_DIR$/src/main/java/Tree" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/API_payload" />
       <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/API_payload" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FirstDuplicate">
+  <component name="RunManager" selected="Application.Lambda_Expression">
     <configuration name="BinaryTreeDemo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.BinaryTreeDemo" />
-      <module name="test.test" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Tree.*" />
@@ -98,6 +103,14 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="RunConfigurationTask" enabled="true" run_configuration_name="Test" run_configuration_type="Application" />
+      </method>
+    </configuration>
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Calculator" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="DecodeMessage" type="Application" factoryName="Application" nameIsGenerated="true">
@@ -114,13 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.FirstDuplicate" />
+    <configuration name="Lambda_Expression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java8.Lambda_Expression" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
+          <option name="PATTERN" value="Java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,41 +141,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Interval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interval.Interval" />
+    <configuration name="LargestBinaryBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.LargestBinaryBST" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interval.Solution" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Interval.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DemoCollections.LinkedListDemo" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DemoCollections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderOfSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.OrderOfSort" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,16 +190,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyingAlienDictionary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.VerifyingAlienDictionary" />
+    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadDemo" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -232,19 +225,19 @@
       <item itemvalue="Application.SumOfPair" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.BinaryTreeDemo" />
-      <item itemvalue="Application.VerifyingAlienDictionary" />
-      <item itemvalue="Application.OrderOfSort" />
-      <item itemvalue="Application.Interval" />
-      <item itemvalue="Application.LinkedListDemo" />
-      <item itemvalue="Application.FirstDuplicate" />
+      <item itemvalue="Application.Lambda_Expression" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Calculator" />
+      <item itemvalue="Application.ThreadDemo" />
+      <item itemvalue="Application.LargestBinaryBST" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FirstDuplicate" />
-        <item itemvalue="Application.LinkedListDemo" />
-        <item itemvalue="Application.Interval" />
-        <item itemvalue="Application.OrderOfSort" />
-        <item itemvalue="Application.VerifyingAlienDictionary" />
+        <item itemvalue="Application.Lambda_Expression" />
+        <item itemvalue="Application.ThreadDemo" />
+        <item itemvalue="Application.LargestBinaryBST" />
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -307,6 +300,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 24" />
@@ -314,50 +308,80 @@
     <option name="LAST_COMMIT_MESSAGE" value="Backup" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="370" y="70" key="#BinaryTreeDemo" timestamp="1592498419213">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="370" y="70" key="#BinaryTreeDemo/0.0.1440.900@0.0.1440.900" timestamp="1592498419213" />
     <state x="370" y="69" key="#Test" timestamp="1591562072145">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="370" y="69" key="#Test/0.0.1440.900@0.0.1440.900" timestamp="1591562072145" />
-    <state width="1398" height="144" key="GridCell.Tab.0.bottom" timestamp="1592246053805">
+    <state x="533" y="165" key="#com.intellij.ide.util.MemberChooser" timestamp="1594660560863">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1594503705212" />
+    <state x="533" y="165" key="#com.intellij.ide.util.MemberChooser/0.23.1440.810@0.23.1440.810" timestamp="1594660560863" />
+    <state x="496" y="342" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1594832655260">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="496" y="342" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.810@0.23.1440.810" timestamp="1594832655260" />
+    <state width="1398" height="120" key="GridCell.Tab.0.bottom" timestamp="1594909237102">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state width="1398" height="144" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594565143399" />
+    <state width="1398" height="144" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1592498751540" />
+    <state width="1398" height="120" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1594909237102" />
+    <state width="1398" height="120" key="GridCell.Tab.0.center" timestamp="1594909237102">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state width="1398" height="144" key="GridCell.Tab.0.center/0.0.1440.820@0.0.1440.900" timestamp="1592918244952" />
+    <state width="1398" height="144" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1594565143398" />
+    <state width="1398" height="144" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1592498751539" />
+    <state width="1398" height="120" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1594909237102" />
+    <state width="1398" height="120" key="GridCell.Tab.0.left" timestamp="1594909237101">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state width="1398" height="144" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1594565143397" />
+    <state width="1398" height="144" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1592918244928" />
+    <state width="1398" height="120" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1594909237101" />
+    <state width="1398" height="120" key="GridCell.Tab.0.right" timestamp="1594909237102">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state width="1398" height="144" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1594565143398" />
+    <state width="1398" height="144" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1592498751539" />
+    <state width="1398" height="120" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1594909237102" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1592918244963">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="144" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592246053805" />
-    <state width="1398" height="144" key="GridCell.Tab.0.center" timestamp="1592246053804">
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592918244963" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1592918244962">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="144" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592246053804" />
-    <state width="1398" height="144" key="GridCell.Tab.0.left" timestamp="1592246053803">
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1592918244962" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1592918244961">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="144" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592246053803" />
-    <state width="1398" height="144" key="GridCell.Tab.0.right" timestamp="1592246053804">
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1592918244961" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1592918244962">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="144" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592246053804" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1591726449932">
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1592918244962" />
+    <state x="335" y="156" key="NewModule_or_Project.wizard" timestamp="1594566593046">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591726449932" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1591726449931">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1591726449931" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1591726449931">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1591726449931" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1591726449932">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1591726449932" />
+    <state x="335" y="156" key="NewModule_or_Project.wizard/0.0.1440.900@0.0.1440.900" timestamp="1594566593046" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1591639686172">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1591639686172" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1592167821836">
+    <state x="88" y="72" width="1289" height="755" key="new project wizard" timestamp="1594566251109">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1592167821836" />
+    <state x="88" y="72" width="1289" height="755" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1594566251109" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1592792685389">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1592792685389" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -369,6 +393,11 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ThreadDemo.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

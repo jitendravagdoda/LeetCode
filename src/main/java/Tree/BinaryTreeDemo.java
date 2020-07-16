@@ -145,6 +145,15 @@ import java.util.LinkedList;
             max=Math.max(max,leftcount+rightcount);
             return Math.max(leftcount,rightcount);
         }
+
+        public int unique(Node node, int count){
+            if(node == null)
+                return count;
+            node.num= count++;
+            count = unique(node.left,count);
+            count=unique(node.right,count);
+            return count;
+        }
     }
 
 
@@ -166,15 +175,18 @@ import java.util.LinkedList;
             root1.right.left=new Node(6);
             root1.right.right=new Node(9);
             BinaryTree bt=new BinaryTree(root);
-            System.out.println("==========");
-            bt.inOrder(root1);
-            System.out.println();
-            System.out.println("===========");
-            Node mergeTree=bt.mergeTwoBinaryTree(root, root1);
-            Node temp=new Node(5);
-            bt.breadthFirstTravsal(root1);
-            System.out.println(bt.inOrderSuccessorRecursive(root1,temp).num);
-            System.out.println(bt.predecessor(root1,temp).num);
+            bt.breadthFirstTravsal(root);
+            bt.unique(root,0);
+            bt.breadthFirstTravsal(root);
+//            System.out.println("==========");
+//            bt.inOrder(root1);
+//            System.out.println();
+//            System.out.println("===========");
+//            Node mergeTree=bt.mergeTwoBinaryTree(root, root1);
+//            Node temp=new Node(5);
+//            bt.breadthFirstTravsal(root1);
+//            System.out.println(bt.inOrderSuccessorRecursive(root1,temp).num);
+//            System.out.println(bt.predecessor(root1,temp).num);
     //        bt.breadthFirstTravsal(mergeTree);
     //        System.out.println(bt.isBST(root1,Integer.MIN_VALUE, Integer.MAX_VALUE));
     //        Node lowestComman=bt.lowestCommonAncetor(root,4,15);

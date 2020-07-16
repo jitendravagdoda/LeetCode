@@ -1,5 +1,7 @@
 package LeetCode;
-import java.util.Comparator;
+import javafx.util.Pair;
+
+import java.util.*;
 import java.util.PriorityQueue;
 
 public class KnearstNeighnour {
@@ -26,6 +28,7 @@ public class KnearstNeighnour {
                 return (int)(o1.getDistance()-o2.getDistance());
             }
         });
+      
 
         for(int i=0;i<point.length;i++)
         {
